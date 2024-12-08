@@ -1,0 +1,7 @@
+.playersList-button {
+  margin-top: var(--spacing-l);
+}
+
+.playersList-item {
+  margin-top: var(--spacing-xs);
+}

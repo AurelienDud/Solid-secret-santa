@@ -1,0 +1,32 @@
+.drawListItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: var(--content-bg);
+  color: var(--content-color);
+  border: solid 1px var(--content-color);
+  border-radius: var(--app-trigger-radius);
+  margin-bottom: var(--spacing-xs);
+}
+
+.drawListItem-content {
+  padding: var(--spacing-xs);
+  flex-grow: 1;
+  color: inherit;
+  background-color: transparent;
+  border: unset;
+  outline: unset;
+  font-size: inherit;
+}
+
+.drawListItem-aside {
+  padding: var(--spacing-xs) var(--spacing-xs) var(--spacing-xs) 0;
+  height: 100%;
+  background-color: transparent;
+  border: unset;
+  outline: unset;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: 0;
+}

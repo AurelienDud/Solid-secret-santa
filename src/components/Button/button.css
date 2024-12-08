@@ -1,0 +1,18 @@
+.button {
+  padding: var(--spacing-xs);
+  font-weight: bold;
+  background-color: #C6EFFF;
+  color: #505050;
+  border: solid 1px #C6EFFF;
+  border-radius: var(--app-trigger-radius);
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.button:disabled {
+  opacity: 0.3;
+}
+
+.button--fluid {
+  width: 100%;
+}

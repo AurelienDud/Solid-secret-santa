@@ -1,0 +1,49 @@
+:root {
+  --app-bg-gradient-start: #063563;
+  --app-bg-gradient-end: #3474b2;
+  --app-color: #fcfcfc;
+  --app-font-size: 1.2rem;
+  --content-bg: #fcfcfc;
+  --content-color: #303030;
+  --app-trigger-radius: 4px;
+  --app-content-radius: 8px;
+  --tint-error: #ff0000;
+  --spacing-xs: 0.4rem;
+  --spacing-s: 0.6rem;
+  --spacing-m: 1rem;
+  --spacing-l: 1.3rem;
+  --spacing-xl: 1.8rem;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--app-bg-gradient-start);
+  background: linear-gradient(180deg, var(--app-bg-gradient-start) 30%, var(--app-bg-gradient-end) 100%);
+  color: var(--app-color);
+  font-size: var(--app-font-size);
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.app-footer {
+  margin: 0 auto;
+  padding: var(--spacing-xs);
+  font-size: 0.8rem;
+}
